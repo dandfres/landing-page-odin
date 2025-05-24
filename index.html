@@ -4,88 +4,106 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing page</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
     
     <header>
 
-        <a href="">Header Logo</a>
-
-        <nav>
-            <ul>
-                <li><a href="#">Header link one</a></li>
-                <li><a href="#">Header link two</a></li>
-                <li><a href="#">Header link three</a></li>
-            </ul>
-        </nav>
+        <div>
+            <a href="#">
+                <img src="./assets/top-logo.png" class="header-icon" alt="icon">
+            </a>
+            
+            <nav>
+                <ul class="header-links">
+                    <li><a href="#">Header link one</a></li>
+                    <li><a href="#">Header link two</a></li>
+                    <li><a href="#">Header link three</a></li>
+                </ul>
+            </nav>
+        </div>
 
     </header>
-
+    <!-- CONTENIDO PRINCIPAL -->
     <main>
-        
-        <section>
 
-            <article>
-                <h1>This website is awesome</h1>
-                <p>
-                    This website has some subtext that foes here under the main title. It's a smaller font and the color is lower contrast.
-                </p>
-            </article>
+        <section class="hero-main">
+
+            <div>
+                <article>
+                    <h1>Tu carrera en desarrollo web Comienza aquí</h1>
+                    <p>
+                        Nuestro plan de estudios completo es gratuito y está respaldado por una apasionada comunidad de código abierto.
+                    </p>
+                    <button>Empezar</button>
+                </article>
                 
-            <figure>
-                <img src="" alt="">
-            </figure>
+                <figure>
+                    <img src="./assets/landing-page.png" alt="">
+                </figure>
+            </div>
 
         </section>
+        <!-- =============================== -->
+        <section class="curriculum">
 
-        <section>
-
-            <h2>Some random information.</h2>
+            <h2>Aprende lo que necesitas saber</h2>
 
             <div class="container">
 
                 <div class="card">
-                    <img src="" alt="">
-                    <p>this is some subtext under an illustration or image</p>
+                    <div>
+                        <img src="./assets/badge-foundations.svg" alt="fundamentos">
+                    </div>
+                    <p>¡Aquí empieza todo! Una introducción práctica a todas las herramientas esenciales.</p>
                 </div>
 
                 <div class="card">
-                    <img src="" alt="">
-                    <p>this is some subtext under an illustration or image</p>
+                    <div>
+                        <img src="./assets/badge-ruby-on-rails.svg" alt="Full Stack Ruby on Rails">
+                    </div>
+                    <p>Esta ruta te guiará por todo nuestro programa de Ruby on Rails.</p>
                 </div>
 
                 <div class="card">
-                    <img src="" alt="">
-                    <p>this is some subtext under an illustration or image</p>
+                    <div>
+                        <img src="./assets/badge-javascript.svg" alt="Full Stack JavaScript">
+                    </div>
+                    <p>Este curso te guiará por todo nuestro programa de JavaScript.</p>
                 </div>
 
                 <div class="card">
-                    <img src="" alt="">
-                    <p>this is some subtext under an illustration or image</p>
+                    <div>
+                        <img src="./assets/badge-discord.png" alt="Canal de Discord">
+                    </div>
+                    <p>Unete a nuestro canal de Discord y comparte tus progresos en nuestra comunidad.</p>
                 </div>
 
             </div>
 
         </section>
+        <!-- ================================ -->
+        <section class="testimonies">
 
-        <section>
-
-            <p>
-                This is an inspirin quote, or a testimonial from a customer. Maybe it's just filling up space, or maybepeople will actually read it. Who knows? All I know is that it looks nice.
-            </p>
-
-            <strong>-Thor, God of Thunder</strong>
+            <div>
+                <p>
+                    Recomiendo The Odin Project si quieres aprender desarrollo web desde cero. Es gratuito, bien estructurado y te guía paso a paso con proyectos prácticos que te preparan para el mundo real. Ideal para autodidactas.
+                </p>
+                
+                <strong>-Sebastian Durand</strong>
+            </div>
 
         </section>
         
-        <span>
-
+        <span class="donations">
+            
             <div>
-                <strong>Call to action!</strong>
-                <p>Sign up for our product by clicking that button right over there!</p>
+                <strong>¡Apóyanos!</strong>
+                <p>El Proyecto Odin está financiado por la comunidad. ¡Únete a nosotros para empoderar a estudiantes de todo el mundo apoyando el Proyecto Odin!</p>
             </div>
 
-            <button>Sign up</button>
+            <button>Mas informacion</button>
 
         </span>
 

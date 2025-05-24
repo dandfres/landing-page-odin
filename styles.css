@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 24px;
+}
+
+header {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+header > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.header-icon {
+    height: 56px;
+}
+
+.header-links {
+    display: flex;
+    gap: 36px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+main {
+    max-width: 1400;
+}
+
+.hero-main {
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 130px 0;
+    font-size: 18px;
+}
+
+.hero-main > div {
+    display: flex;
+    max-width: 1300px;
+    margin: 0 auto;
+    gap: 96px;
+}
+
+article {
+    flex-direction: column;
+    display: flex;
+    gap: 24px;
+    color: #e5e7eb;
+}
+
+article > h1 {
+    font-size: 52px;
+    font-weight: 900;
+}
+
+article > p {
+    font-size: 22px;
+}
+
+article > button {
+    color: #e5e7eb;
+    background: #3882f6;
+    font-size: 20px;
+    padding: 12px 24px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    width: fit-content;
+}
+
+figure > img {
+    width: 600px;
+}
+
+.curriculum {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding-top: 48px;
+    color: #1f2937;
+    margin-bottom: 120px;
+}
+
+h2 {
+    font-size: 44px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.card {
+    text-align: center;
+    width: 220px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card > div {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #1f2937;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.card > div > img {
+    height: 160px;
+}
+
+.testimonies {
+    background-color: #e5e7eb;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.testimonies > div {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 140px 0 120px;
+}
+
+.testimonies > div > p {
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+.testimonies > div > strong {
+    text-align: end;
+    font-size: 28px;
+    margin-top: 24px;
+}
+
+.donations {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: 140px auto;
+    background-color: #3882f6;
+    border-radius: 12px;
+    color: #f9faf8;
+    padding: 72px 140px;
+}
+
+.donations > div {
+    max-width: 700px;
+}
+
+.donations > div > strong {
+    font-size: 28px;
+}
+
+.donations > div > p {
+    margin-top: 16px;
+    font-size: 20px;
+    font-weight: lighter ;
+}
+
+
+.donations > button {
+    border: 3px solid #e5e7eb;
+    border-radius: 12px;
+    background: transparent;
+    color: #f9faf8;
+    font-size: 20px;
+    font-weight: bold;
+    height: 60px;
+    padding: 0 32px;
+    align-self: center;
+}
+
+footer {
+    min-width: 100%;
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+    padding: 48px 0;
+    font-size: 22px;
+}
