@@ -85,6 +85,7 @@ article > button {
     border: none;
     font-weight: bold;
     width: fit-content;
+    cursor: pointer;
 }
 
 figure > img {
@@ -197,6 +198,7 @@ h2 {
     height: 60px;
     padding: 0 32px;
     align-self: center;
+    cursor: pointer;
 }
 
 footer {
